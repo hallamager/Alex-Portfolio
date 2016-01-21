@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alex Mendes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ALEX MENDES</i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="active"><a href="#skills">SKILLS</a></li>  
+            <li class="active"><a href="#green">EXPERIENCE</a></li>
+            <li class="active"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="hello">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2 centered">
+	    			<h1>ALEX COSTA MENDES</h1>
+	    			<h3>STUDENT AT BOURNEMOUTH UNIVERSITY, STUDYING TV PRODUCTION
+</h3>
+	    		</div><!-- /col-lg-8 -->
+	    	</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /hello -->
+      
+      <div id="skills">
+		<div class="container">
+			<div class="row centered">
+				<h3>MY SKILLS</h3>
+				<div class="col-lg-3 mt">
+					<canvas id="javascript" height="130" width="130"></canvas>
+					<p>VIDEO EDITING</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 95,
+									color:"#74cfae"
+								},
+								{
+									value : 5,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="bootstrap" height="130" width="130"></canvas>
+					<p>DIRECTING</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 90,
+									color:"#74cfae"
+								},
+								{
+									value : 10,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="wordpress" height="130" width="130"></canvas>
+					<p>RADIO</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 65,
+									color:"#74cfae"
+								},
+								{
+									value : 35,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="photoshop" height="130" width="130"></canvas>
+					<p>GRAPGIC DESIGN</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 50,
+									color:"#74cfae"
+								},
+								{
+									value : 50,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /skills -->
+	
+    <div id="portfolio">
+	<div class="container">
+		<div class="row centered mt grid">
+			<h3>MY LATEST WORK</h3>
+			<div class="mt"></div>
+			<div class="col-lg-4">
+                <div class="col-4" style="padding-right:0px; padding-left:0px;"><a id="portfolio" class="bg-light-gray" href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><img src="assets/img/01.jpg" alt=""></a></div>
+			</div>
+			<div class="col-lg-4">
+				<div class="col-4" style="padding-right:0px; padding-left:0px;"><a id="portfolio" class="bg-light-gray" href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><img src="assets/img/02.jpg" alt=""></a></div>
+			</div>
+			<div class="col-lg-4">
+				<div class="col-4" style="padding-right:0px; padding-left:0px;"><a id="portfolio" class="bg-light-gray" href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><img src="assets/img/03.jpg" alt=""></a></div>
+			</div>
+		</div>
+		
+		<div class="row centered mt grid">
+			<div class="mt"></div>		
+			<div class="col-lg-4">
+				<div class="col-4" style="padding-right:0px; padding-left:0px;"><a id="portfolio" class="bg-light-gray" href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><img src="assets/img/04.jpg" alt=""></a></div>
+			</div>
+			<div class="col-lg-4">
+				<div class="col-4" style="padding-right:0px; padding-left:0px;"><a id="portfolio" class="bg-light-gray" href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><img src="assets/img/05.jpg" alt=""></a></div>
+			</div>
+			<div class="col-lg-4">
+				<div class="col-4" style="padding-right:0px; padding-left:0px;"><a id="portfolio" class="bg-light-gray" href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><img src="assets/img/06.jpg" alt=""></a></div>
+			</div>
+		</div>
+		
+	</div>
+        </div>
+      
+      <div id="green">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-12 centered">
+					<h3>EXPERIENCE</h3>
+					<div class="row centered">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="col-md-3">
+						<p>QVC <br> Floor manager internship</p>
+					</div>
+					<div class="col-md-3">
+						<p>President A Gazeta</p>
+					</div>
+                            <div class="col-md-3">
+						<p>Radio Presenter Nerve radio</p>
+					</div>
+                            <div class="col-md-3">
+						<p>Freelancer Film & TV Freelancer</p>
+					</div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+      
+      
+	
+	<section id="contact"></section>
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+                <h3>CONTACT ME</h3>
+				<div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-md-3">
+						<a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"><i class="fa fa-envelope"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="https://www.facebook.com/alexslb33?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="https://www.linkedin.com/in/alex-mendes-714086b5?authType=NAME_SEARCH&authToken=Az0B&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A409257088%2CauthType%3ANAME_SEARCH%2Cidx%3A1-2-2%2CtarId%3A1453338517141%2Ctas%3Aalex"><i class="fa fa-linkedin" target="_blank"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="https://twitter.com/AlexCostaMendes" target="_blank"><i class="fa fa-twitter"></i></a>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /social -->
+      
+      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>DESIGN ITERATIONS</h2>
+                            <h5>About The Project</h5>
+                            <p>For this project we had to create an iOS mobile app which displayed geocached data. The app had to involve the location of Bournemouth beach, with this in mind I decided to create the app around the idea of the Juarssic Coast. The app is targetted at children with the aim of them having to disocvered these secret dinosaurs.To create the pages within the app I used Photoshop and InDesign.</p>
+                            <img class="img-responsive img-centered" src="images/portfolio/geo1.jpg" alt="">
+                            <img class="img-responsive img-centered" src="images/portfolio/geo2.jpg" alt="">
+                            <p>
+                            <ul class="list-inline">
+                                <li><h5>Categories:</h5></li>
+                                <li>Mobile App</li>
+                                <li>Graphic Design</li>
+                                <li>Illustrator</li>
+                                <li>IOS swift</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>DESIGN ITERATIONS</h2>
+                            <h5>About The Project</h5>
+                            <p>For this project we had to create an iOS mobile app which displayed geocached data. The app had to involve the location of Bournemouth beach, with this in mind I decided to create the app around the idea of the Juarssic Coast. The app is targetted at children with the aim of them having to disocvered these secret dinosaurs.To create the pages within the app I used Photoshop and InDesign.</p>
+                            <img class="img-responsive img-centered" src="images/portfolio/geo1.jpg" alt="">
+                            <img class="img-responsive img-centered" src="images/portfolio/geo2.jpg" alt="">
+                            <p>
+                            <ul class="list-inline">
+                                <li><h5>Categories:</h5></li>
+                                <li>Mobile App</li>
+                                <li>Graphic Design</li>
+                                <li>Illustrator</li>
+                                <li>IOS swift</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>DESIGN ITERATIONS</h2>
+                            <h5>About The Project</h5>
+                            <p>For this project we had to create an iOS mobile app which displayed geocached data. The app had to involve the location of Bournemouth beach, with this in mind I decided to create the app around the idea of the Juarssic Coast. The app is targetted at children with the aim of them having to disocvered these secret dinosaurs.To create the pages within the app I used Photoshop and InDesign.</p>
+                            <img class="img-responsive img-centered" src="images/portfolio/geo1.jpg" alt="">
+                            <img class="img-responsive img-centered" src="images/portfolio/geo2.jpg" alt="">
+                            <p>
+                            <ul class="list-inline">
+                                <li><h5>Categories:</h5></li>
+                                <li>Mobile App</li>
+                                <li>Graphic Design</li>
+                                <li>Illustrator</li>
+                                <li>IOS swift</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>DESIGN ITERATIONS</h2>
+                            <h5>About The Project</h5>
+                            <p>For this project we had to create an iOS mobile app which displayed geocached data. The app had to involve the location of Bournemouth beach, with this in mind I decided to create the app around the idea of the Juarssic Coast. The app is targetted at children with the aim of them having to disocvered these secret dinosaurs.To create the pages within the app I used Photoshop and InDesign.</p>
+                            <img class="img-responsive img-centered" src="images/portfolio/geo1.jpg" alt="">
+                            <img class="img-responsive img-centered" src="images/portfolio/geo2.jpg" alt="">
+                            <p>
+                            <ul class="list-inline">
+                                <li><h5>Categories:</h5></li>
+                                <li>Mobile App</li>
+                                <li>Graphic Design</li>
+                                <li>Illustrator</li>
+                                <li>IOS swift</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>DESIGN ITERATIONS</h2>
+                            <h5>About The Project</h5>
+                            <p>For this project we had to create an iOS mobile app which displayed geocached data. The app had to involve the location of Bournemouth beach, with this in mind I decided to create the app around the idea of the Juarssic Coast. The app is targetted at children with the aim of them having to disocvered these secret dinosaurs.To create the pages within the app I used Photoshop and InDesign.</p>
+                            <img class="img-responsive img-centered" src="images/portfolio/geo1.jpg" alt="">
+                            <img class="img-responsive img-centered" src="images/portfolio/geo2.jpg" alt="">
+                            <p>
+                            <ul class="list-inline">
+                                <li><h5>Categories:</h5></li>
+                                <li>Mobile App</li>
+                                <li>Graphic Design</li>
+                                <li>Illustrator</li>
+                                <li>IOS swift</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>DESIGN ITERATIONS</h2>
+                            <h5>About The Project</h5>
+                            <p>For this project we had to create an iOS mobile app which displayed geocached data. The app had to involve the location of Bournemouth beach, with this in mind I decided to create the app around the idea of the Juarssic Coast. The app is targetted at children with the aim of them having to disocvered these secret dinosaurs.To create the pages within the app I used Photoshop and InDesign.</p>
+                            <img class="img-responsive img-centered" src="images/portfolio/geo1.jpg" alt="">
+                            <img class="img-responsive img-centered" src="images/portfolio/geo2.jpg" alt="">
+                            <p>
+                            <ul class="list-inline">
+                                <li><h5>Categories:</h5></li>
+                                <li>Mobile App</li>
+                                <li>Graphic Design</li>
+                                <li>Illustrator</li>
+                                <li>IOS swift</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
